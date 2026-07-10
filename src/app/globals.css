@@ -282,7 +282,8 @@ button {
 }
 
 .hero-status {
-  display: inline-flex;
+  display: flex;
+  width: fit-content;
   align-items: center;
   gap: var(--space-2);
   font-size: var(--text-sm);
@@ -305,7 +306,8 @@ button {
 }
 
 .hero-name {
-  display: inline-flex;
+  display: flex;
+  width: fit-content;
   flex-wrap: wrap;
   font-size: var(--text-3xl);
   font-weight: 700;
@@ -315,7 +317,7 @@ button {
 
 .hero-name-char {
   display: inline-block;
-  transform: translateY(-0.35em);
+  transform: translateY(0.28em);
   opacity: 0;
   filter: blur(2px);
   animation: lock-code-in 520ms steps(5, end) forwards;
@@ -783,18 +785,18 @@ button {
 @keyframes lock-code-in {
   0% {
     opacity: 0;
-    transform: translateY(-0.35em);
+    transform: translateY(0.28em);
     filter: blur(2px);
   }
 
   45% {
     opacity: 1;
-    transform: translateY(0.18em);
+    transform: translateY(-0.1em);
     filter: blur(1px);
   }
 
   70% {
-    transform: translateY(-0.08em);
+    transform: translateY(0.05em);
   }
 
   100% {
