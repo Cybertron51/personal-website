@@ -74,7 +74,7 @@ export const projects: Project[] = [
     visualLabel: "AI4Sec",
     visualTheme: "research",
     links: {
-      paper: "https://openreview.net/forum?id=5mKXN9Dr8z",
+      paper: "https://arxiv.org/abs/2510.04245",
     },
     hasDetailPage: true,
     detail: {
